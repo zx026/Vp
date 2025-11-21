@@ -16,8 +16,8 @@ import asyncio
 from telethon import TelegramClient, events, Button
 from telethon.tl.types import UserStatusOnline, UserStatusRecently, UserStatusOffline, UserStatusLastWeek, UserStatusLastMonth
 
-API_ID = 0  # <-- Your API ID
-API_HASH = ""  # <-- Your API HASH
+API_ID = 21552265  # <-- Your API ID
+API_HASH = "1c971ae7e62cc416ca977e040e700d09"  # <-- Your API HASH
 SESSION = "userbot_session"
 
 client = TelegramClient(SESSION, API_ID, API_HASH)
